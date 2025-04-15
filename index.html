@@ -6,9 +6,32 @@
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
+    <h1 class="title">Rock, Paper, Scissors Game</h1>
     <main>
-
+        <section class="pick">
+            <h3>Click to Choose</h3>
+            <div class="choices">
+                <a class="rock" onclick="something">
+                    <img src="img/rock.svg" alt="rock">
+                </a>
+                <a class="paper" onclick="something">
+                    <img src="img/paper.svg" alt="paper">
+                </a>
+                <a class="scissors" onclick="something">
+                    <img src="img/scissors.svg" alt="scissors">
+                </a>
+            </div>
+        </section>
+        <section class="opp">
+            <h3>Opponent Chooses</h3>
+            <div class="opp-pick">
+                <img id="oppResult" src="">
+            </div>
+        </section>
     </main>
+    <div class="result-wrapper">
+        <h1 id="result">&nbsp;</h1>
+    </div>
     <script src="js/logic.js"></script>
 </body>
 </html>
