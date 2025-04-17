@@ -5,8 +5,8 @@
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="css/custom.css">
 </head>
-<body>
-    <h1 class="title">Rock, Paper, Scissors Game</h1>
+<body onload="initPick()">
+    <h1 class="title">Rock Paper Scissors Game</h1>
     <main>
         <section class="pick">
             <h3>Click to Choose</h3>
@@ -25,12 +25,12 @@
         <section class="opp">
             <h3>Opponent Chooses</h3>
             <div class="opp-pick">
-                <img id="oppResult" src="">
+                <img class="opp-result" id="oppResult" src="">
             </div>
         </section>
     </main>
     <div class="result-wrapper">
-        <h1 id="result">&nbsp;</h1>
+        <h1 class="result" id="result">&nbsp;</h1>
     </div>
     <script src="js/logic.js"></script>
 </body>
