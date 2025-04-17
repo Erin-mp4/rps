@@ -58,6 +58,7 @@ a {
 a:hover, a:focus {
     cursor: pointer;
     opacity: 1;
+    background-color: #F7F7F7;
     border-color: #F7F7F7;
 }
 .result-wrapper {
